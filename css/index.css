@@ -1,0 +1,108 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+html,*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgba(0,0,0,0) linear-gradient(to right,rgb(75,121,161),
+    rgb(40,62,81)) repeat scroll 0% 0%;
+    font-family: 'Bangers',cursive;
+    font-size: 40px;
+}
+
+header{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100px;
+    color: gold;
+    text-align: center
+}
+
+#resultados{
+    margin-left: 5px;
+    color: goldenrod;
+}
+
+#mensagem{
+    float: right;
+    color: goldenrod;
+}
+
+.slide{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.active-slide{
+    opacity: 1;
+    z-index: 2;
+}
+
+.meuContainer{
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    width: 1000px;
+    height: 450px;
+    margin-top: 20px;
+    background-color: rgb(40,62,81,1);
+    color: goldenrod;
+    letter-spacing: 12px;
+    border-radius: 5px;
+}
+
+.pergunta{
+    margin-bottom: 30px;
+    background-color: goldenrod;
+    color: rgb(40,62,81);
+}
+
+.respostas{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    justify-content: left;
+    display: inline-block;
+}
+
+.respostas label{
+    display: block;
+    margin-bottom: 30px;
+}
+
+#buttons{
+    text-align: center;
+    margin-top: 50px;
+}
+
+button{
+    background-color: goldenrod;
+    color: rgb(40,62,81);
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    border: goldenrod 1px solid;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(75,121,161);
+    color: goldenrod;
+}
+
+button:active{
+    background-color: rgb(40,62,81);
+    color: white;
+}
