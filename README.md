@@ -21,3 +21,6 @@ Diferentemente do jogo original, no qual o participante pode decidir deixar o jo
 pode passar por todas as questões do Jogo e ir acumulando seus pontos até o final.
 
 A cada pergunta o valor de pontuação e a dificuldade aumentam.  
+
+Link Vídeo tutorial - https://www.youtube.com/watch?v=ubnTqlFzu9s 
+
